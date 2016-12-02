@@ -14,23 +14,33 @@ Before starting ensure you have java 7 installed.
 3. Copy your CcExtensionAPI.jar file to the "Java Math Extended Operators" directory. This can be found in your CORTICON_HOME/Studio/lib directory. On windows machines you can generally find this jar in C:/Program Files/Progress/Corticon [version number]/Studio/lib
 4. Open a command window in the "Java Math Extended Operators" directory and execute the following command:
 
- `gradlew build`
+ ```
+ gradlew build
+ ```
 
 5. Assuming the build was successful, you should have the resulting jar file in the build/libs directory.
 
 ### common errors
 #### Could not find tools.jar
  This is likely caused by using a java 8 JDK for compilation. Try installing a java 7 JDK and running the following command:
- `gradlew build -Dorg.gradle.java.home=/PATH_TO_JAVA_7_JDK`
+ ```
+ gradlew build -Dorg.gradle.java.home=/PATH_TO_JAVA_7_JDK
+ ```
 
 ## Performing your own build
 
  1. Clone the repository
- `git clone https://github.com/corticon/java-math-extended-operators.git`
+ ```
+ git clone https://github.com/corticon/java-math-extended-operators.git
+ ```
 
  2. Perform a gradle build
- `cd java-math-extended-operators`
- `gradle build`
+ ```
+ cd java-math-extended-operators
+ ```
+ ```
+ gradle build
+ ```
 
 ### Development
 You can modify these extended operators by simply modifying the source files, we recommend that you import the two projects (Java Math Extended Operators and Java Math Tests) into corticon studio. From here, you can easily modify the existing operators or add your own.
