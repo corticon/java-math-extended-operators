@@ -1,5 +1,17 @@
-/* 
- * Copyright (c) 2016 by Progress Software Corporation. All rights reserved.
+/*
+ * Copyright 2016 by Progress Software Corporation. All rights reserved.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *    http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
  */
 
 package com.corticon.samples.extensions;
@@ -16,7 +28,7 @@ import com.corticon.services.extensions.TopLevelFolder;
  * This class provides sample Corticon stand-alone extended operators. Extended
  * operators are a means to add custom features to Corticon for use in Corticon
  * rules.
- * 
+ *
  * The samples in this class provide simple operators for calculating the
  * present and future value of an investment for a number of years at a given
  * interest rate.
@@ -295,10 +307,10 @@ public class MathOperators implements ICcDecimalExtension {
 // round(float a)
 // Returns the closest int to the argument, with ties rounding up.
 // scalb(double d, int scaleFactor)
-// Return d × 2scaleFactor rounded as if performed by a single correctly rounded
+// Return d ï¿½ 2scaleFactor rounded as if performed by a single correctly rounded
 // floating-point multiply to a member of the double value set.
 // scalb(float f, int scaleFactor)
-// Return f × 2scaleFactor rounded as if performed by a single correctly rounded
+// Return f ï¿½ 2scaleFactor rounded as if performed by a single correctly rounded
 // floating-point multiply to a member of the float value set.
 // signum(double d)
 // Returns the signum function of the argument; zero if the argument is zero,
@@ -328,4 +340,3 @@ public class MathOperators implements ICcDecimalExtension {
 // Returns the size of an ulp of the argument.
 // ulp(float f)
 // Returns the size of an ulp of the argument.
-
