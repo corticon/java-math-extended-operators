@@ -7,7 +7,7 @@ Adds java.math commands as extended operators.
 ## Quick Start
 This project includes a gradle script, however it can be built and run without having gradle installed using the gradlew scripts.
 
-Before starting ensure you have java 7 installed.
+Before starting ensure you have java installed.
 
 1. Download the source repository, (either through git or as an archive)
 2. If using an archive extract it.
@@ -22,10 +22,9 @@ Before starting ensure you have java 7 installed.
 
 ### common errors
 #### Could not find tools.jar
- This is likely caused by using a java 8 JDK for compilation. Try installing a java 7 JDK and running the following command:
- ```
- gradlew build -Dorg.gradle.java.home=/PATH_TO_JAVA_7_JDK
- ```
+ This is likely caused by not having the JAVA_HOME enviornment variable set. On windows go to computer->right click->Properties->Advanced system settings->Enviornment variables->new
+
+ Then define the enviornment variable JAVA_HOME with a value pointing to where your JDK is installed.
 
 ## Performing your own build
 
