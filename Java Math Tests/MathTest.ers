@@ -1,0 +1,804 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.corticon.rulesemf.assetmodel:RulesheetAsset xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:com.corticon.rulesemf.asg="http:///com/corticon/rulesemf/asg.ecore" xmlns:com.corticon.rulesemf.assetmodel="http:///com/corticon/rulesemf/assetmodel.ecore" xmlns:com.corticon.rulesemf.viewrulemodel.rulesheet.decisiontable="http:///com/corticon/rulesemf/viewrulemodel/rulesheet/decisiontable.ecore" majorVersionNumber="5" minorVersionNumber="6" buildNumber="6096" updateStamp="_4A7MU4hWEealxow-mHv0zA" externalChecksum="1229514692:507989954:260782383">
+  <languageCode>en_US</languageCode>
+  <ruleset vocabularyUpdateStamp="_OBFiwYhVEeajatZqqEQ2lw" vocabulary="MathTest.ecore#/">
+    <rule documentingRuleStatements="#//@ruleset/@ruleStatements.0">
+      <action>
+        <opaqueExpression expression="n.abs = n.value.abs()">
+          <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="n.abs = n.value.abs" datatype="Decimal" expressiontype="ASSIGNMENT" enumeration="false" cellValue="false">
+            <modifiedTermList>
+              <terms text="abs" datatype="Decimal" termtype="ATTRIBUTE" fulltext="n.abs">
+                <parentTerm text="n" datatype="Decimal" termtype="ENTITY" fulltext="n"/>
+              </terms>
+            </modifiedTermList>
+            <referencedTermList>
+              <terms text="abs" datatype="Decimal" termtype="METHOD" fulltext="n.value.abs">
+                <parentTerm text="value" datatype="Decimal" termtype="ATTRIBUTE" fulltext="n.value">
+                  <parentTerm text="n" datatype="Decimal" termtype="ENTITY" fulltext="n" variable="#//@ruleset/@logicalVariables.0"/>
+                </parentTerm>
+              </terms>
+              <terms text="n" datatype="Decimal" termtype="ENTITY" fulltext="n" variable="#//@ruleset/@logicalVariables.0"/>
+            </referencedTermList>
+          </parserOutput>
+        </opaqueExpression>
+      </action>
+      <action>
+        <opaqueExpression expression="n.acos = n.value.acos()">
+          <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="n.acos = n.value.acos" datatype="Decimal" expressiontype="ASSIGNMENT" enumeration="false" cellValue="false">
+            <modifiedTermList>
+              <terms text="acos" datatype="Decimal" termtype="ATTRIBUTE" fulltext="n.acos">
+                <parentTerm text="n" datatype="Decimal" termtype="ENTITY" fulltext="n"/>
+              </terms>
+            </modifiedTermList>
+            <referencedTermList>
+              <terms text="n" datatype="Decimal" termtype="ENTITY" fulltext="n" variable="#//@ruleset/@logicalVariables.0"/>
+              <terms text="acos" datatype="Decimal" termtype="METHOD" fulltext="n.value.acos">
+                <parentTerm text="value" datatype="Decimal" termtype="ATTRIBUTE" fulltext="n.value">
+                  <parentTerm text="n" datatype="Decimal" termtype="ENTITY" fulltext="n" variable="#//@ruleset/@logicalVariables.0"/>
+                </parentTerm>
+              </terms>
+            </referencedTermList>
+          </parserOutput>
+        </opaqueExpression>
+      </action>
+      <action>
+        <opaqueExpression expression="n.asin = n.value.asin()">
+          <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="n.asin = n.value.asin" datatype="Decimal" expressiontype="ASSIGNMENT" enumeration="false" cellValue="false">
+            <modifiedTermList>
+              <terms text="asin" datatype="Decimal" termtype="ATTRIBUTE" fulltext="n.asin">
+                <parentTerm text="n" datatype="Decimal" termtype="ENTITY" fulltext="n"/>
+              </terms>
+            </modifiedTermList>
+            <referencedTermList>
+              <terms text="asin" datatype="Decimal" termtype="METHOD" fulltext="n.value.asin">
+                <parentTerm text="value" datatype="Decimal" termtype="ATTRIBUTE" fulltext="n.value">
+                  <parentTerm text="n" datatype="Decimal" termtype="ENTITY" fulltext="n" variable="#//@ruleset/@logicalVariables.0"/>
+                </parentTerm>
+              </terms>
+              <terms text="n" datatype="Decimal" termtype="ENTITY" fulltext="n" variable="#//@ruleset/@logicalVariables.0"/>
+            </referencedTermList>
+          </parserOutput>
+        </opaqueExpression>
+      </action>
+      <action>
+        <opaqueExpression expression="n.atan = n.value.atan()">
+          <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="n.atan = n.value.atan" datatype="Decimal" expressiontype="ASSIGNMENT" enumeration="false" cellValue="false">
+            <modifiedTermList>
+              <terms text="atan" datatype="Decimal" termtype="ATTRIBUTE" fulltext="n.atan">
+                <parentTerm text="n" datatype="Decimal" termtype="ENTITY" fulltext="n"/>
+              </terms>
+            </modifiedTermList>
+            <referencedTermList>
+              <terms text="atan" datatype="Decimal" termtype="METHOD" fulltext="n.value.atan">
+                <parentTerm text="value" datatype="Decimal" termtype="ATTRIBUTE" fulltext="n.value">
+                  <parentTerm text="n" datatype="Decimal" termtype="ENTITY" fulltext="n" variable="#//@ruleset/@logicalVariables.0"/>
+                </parentTerm>
+              </terms>
+              <terms text="n" datatype="Decimal" termtype="ENTITY" fulltext="n" variable="#//@ruleset/@logicalVariables.0"/>
+            </referencedTermList>
+          </parserOutput>
+        </opaqueExpression>
+      </action>
+      <action>
+        <opaqueExpression expression="n.cbrt = n.value.cbrt()">
+          <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="n.cbrt = n.value.cbrt" datatype="Decimal" expressiontype="ASSIGNMENT" enumeration="false" cellValue="false">
+            <modifiedTermList>
+              <terms text="cbrt" datatype="Decimal" termtype="ATTRIBUTE" fulltext="n.cbrt">
+                <parentTerm text="n" datatype="Decimal" termtype="ENTITY" fulltext="n"/>
+              </terms>
+            </modifiedTermList>
+            <referencedTermList>
+              <terms text="cbrt" datatype="Decimal" termtype="METHOD" fulltext="n.value.cbrt">
+                <parentTerm text="value" datatype="Decimal" termtype="ATTRIBUTE" fulltext="n.value">
+                  <parentTerm text="n" datatype="Decimal" termtype="ENTITY" fulltext="n" variable="#//@ruleset/@logicalVariables.0"/>
+                </parentTerm>
+              </terms>
+              <terms text="n" datatype="Decimal" termtype="ENTITY" fulltext="n" variable="#//@ruleset/@logicalVariables.0"/>
+            </referencedTermList>
+          </parserOutput>
+        </opaqueExpression>
+      </action>
+      <action>
+        <opaqueExpression expression="n.ceil = n.value.ceil()">
+          <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="n.ceil = n.value.ceil" datatype="Decimal" expressiontype="ASSIGNMENT" enumeration="false" cellValue="false">
+            <modifiedTermList>
+              <terms text="ceil" datatype="Decimal" termtype="ATTRIBUTE" fulltext="n.ceil">
+                <parentTerm text="n" datatype="Decimal" termtype="ENTITY" fulltext="n"/>
+              </terms>
+            </modifiedTermList>
+            <referencedTermList>
+              <terms text="n" datatype="Decimal" termtype="ENTITY" fulltext="n" variable="#//@ruleset/@logicalVariables.0"/>
+              <terms text="ceil" datatype="Decimal" termtype="METHOD" fulltext="n.value.ceil">
+                <parentTerm text="value" datatype="Decimal" termtype="ATTRIBUTE" fulltext="n.value">
+                  <parentTerm text="n" datatype="Decimal" termtype="ENTITY" fulltext="n" variable="#//@ruleset/@logicalVariables.0"/>
+                </parentTerm>
+              </terms>
+            </referencedTermList>
+          </parserOutput>
+        </opaqueExpression>
+      </action>
+      <action>
+        <opaqueExpression expression="n.cos = n.value.cos()">
+          <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="n.cos = n.value.cos" datatype="Decimal" expressiontype="ASSIGNMENT" enumeration="false" cellValue="false">
+            <modifiedTermList>
+              <terms text="cos" datatype="Decimal" termtype="ATTRIBUTE" fulltext="n.cos">
+                <parentTerm text="n" datatype="Decimal" termtype="ENTITY" fulltext="n"/>
+              </terms>
+            </modifiedTermList>
+            <referencedTermList>
+              <terms text="cos" datatype="Decimal" termtype="METHOD" fulltext="n.value.cos">
+                <parentTerm text="value" datatype="Decimal" termtype="ATTRIBUTE" fulltext="n.value">
+                  <parentTerm text="n" datatype="Decimal" termtype="ENTITY" fulltext="n" variable="#//@ruleset/@logicalVariables.0"/>
+                </parentTerm>
+              </terms>
+              <terms text="n" datatype="Decimal" termtype="ENTITY" fulltext="n" variable="#//@ruleset/@logicalVariables.0"/>
+            </referencedTermList>
+          </parserOutput>
+        </opaqueExpression>
+      </action>
+      <action>
+        <opaqueExpression expression="n.cosh = n.value.cosh()">
+          <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="n.cosh = n.value.cosh" datatype="Decimal" expressiontype="ASSIGNMENT" enumeration="false" cellValue="false">
+            <modifiedTermList>
+              <terms text="cosh" datatype="Decimal" termtype="ATTRIBUTE" fulltext="n.cosh">
+                <parentTerm text="n" datatype="Decimal" termtype="ENTITY" fulltext="n"/>
+              </terms>
+            </modifiedTermList>
+            <referencedTermList>
+              <terms text="cosh" datatype="Decimal" termtype="METHOD" fulltext="n.value.cosh">
+                <parentTerm text="value" datatype="Decimal" termtype="ATTRIBUTE" fulltext="n.value">
+                  <parentTerm text="n" datatype="Decimal" termtype="ENTITY" fulltext="n" variable="#//@ruleset/@logicalVariables.0"/>
+                </parentTerm>
+              </terms>
+              <terms text="n" datatype="Decimal" termtype="ENTITY" fulltext="n" variable="#//@ruleset/@logicalVariables.0"/>
+            </referencedTermList>
+          </parserOutput>
+        </opaqueExpression>
+      </action>
+      <action>
+        <opaqueExpression expression="n.exp = n.value.exp()">
+          <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="n.exp = n.value.exp" datatype="Decimal" expressiontype="ASSIGNMENT" enumeration="false" cellValue="false">
+            <modifiedTermList>
+              <terms text="exp" datatype="Decimal" termtype="ATTRIBUTE" fulltext="n.exp">
+                <parentTerm text="n" datatype="Decimal" termtype="ENTITY" fulltext="n"/>
+              </terms>
+            </modifiedTermList>
+            <referencedTermList>
+              <terms text="exp" datatype="Decimal" termtype="METHOD" fulltext="n.value.exp">
+                <parentTerm text="value" datatype="Decimal" termtype="ATTRIBUTE" fulltext="n.value">
+                  <parentTerm text="n" datatype="Decimal" termtype="ENTITY" fulltext="n" variable="#//@ruleset/@logicalVariables.0"/>
+                </parentTerm>
+              </terms>
+              <terms text="n" datatype="Decimal" termtype="ENTITY" fulltext="n" variable="#//@ruleset/@logicalVariables.0"/>
+            </referencedTermList>
+          </parserOutput>
+        </opaqueExpression>
+      </action>
+      <action>
+        <opaqueExpression expression="n.expm1 = n.value.expm1()">
+          <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="n.expm1 = n.value.expm1" datatype="Decimal" expressiontype="ASSIGNMENT" enumeration="false" cellValue="false">
+            <modifiedTermList>
+              <terms text="expm1" datatype="Decimal" termtype="ATTRIBUTE" fulltext="n.expm1">
+                <parentTerm text="n" datatype="Decimal" termtype="ENTITY" fulltext="n"/>
+              </terms>
+            </modifiedTermList>
+            <referencedTermList>
+              <terms text="expm1" datatype="Decimal" termtype="METHOD" fulltext="n.value.expm1">
+                <parentTerm text="value" datatype="Decimal" termtype="ATTRIBUTE" fulltext="n.value">
+                  <parentTerm text="n" datatype="Decimal" termtype="ENTITY" fulltext="n" variable="#//@ruleset/@logicalVariables.0"/>
+                </parentTerm>
+              </terms>
+              <terms text="n" datatype="Decimal" termtype="ENTITY" fulltext="n" variable="#//@ruleset/@logicalVariables.0"/>
+            </referencedTermList>
+          </parserOutput>
+        </opaqueExpression>
+      </action>
+      <action>
+        <opaqueExpression expression="n.floor = n.value.floor()">
+          <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="n.floor = n.value.floor" datatype="Decimal" expressiontype="ASSIGNMENT" enumeration="false" cellValue="false">
+            <modifiedTermList>
+              <terms text="floor" datatype="Decimal" termtype="ATTRIBUTE" fulltext="n.floor">
+                <parentTerm text="n" datatype="Decimal" termtype="ENTITY" fulltext="n"/>
+              </terms>
+            </modifiedTermList>
+            <referencedTermList>
+              <terms text="floor" datatype="Integer" termtype="METHOD" fulltext="n.value.floor">
+                <parentTerm text="value" datatype="Decimal" termtype="ATTRIBUTE" fulltext="n.value">
+                  <parentTerm text="n" datatype="Decimal" termtype="ENTITY" fulltext="n" variable="#//@ruleset/@logicalVariables.0"/>
+                </parentTerm>
+              </terms>
+              <terms text="n" datatype="Decimal" termtype="ENTITY" fulltext="n" variable="#//@ruleset/@logicalVariables.0"/>
+            </referencedTermList>
+          </parserOutput>
+        </opaqueExpression>
+      </action>
+      <action>
+        <opaqueExpression expression="n.exponent = n.value.exponent()">
+          <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="n.exponent = n.value.exponent" datatype="Decimal" expressiontype="ASSIGNMENT" enumeration="false" cellValue="false">
+            <modifiedTermList>
+              <terms text="exponent" datatype="Decimal" termtype="ATTRIBUTE" fulltext="n.exponent">
+                <parentTerm text="n" datatype="Decimal" termtype="ENTITY" fulltext="n"/>
+              </terms>
+            </modifiedTermList>
+            <referencedTermList>
+              <terms text="exponent" datatype="Decimal" termtype="METHOD" fulltext="n.value.exponent">
+                <parentTerm text="value" datatype="Decimal" termtype="ATTRIBUTE" fulltext="n.value">
+                  <parentTerm text="n" datatype="Decimal" termtype="ENTITY" fulltext="n" variable="#//@ruleset/@logicalVariables.0"/>
+                </parentTerm>
+              </terms>
+              <terms text="n" datatype="Decimal" termtype="ENTITY" fulltext="n" variable="#//@ruleset/@logicalVariables.0"/>
+            </referencedTermList>
+          </parserOutput>
+        </opaqueExpression>
+      </action>
+      <action>
+        <opaqueExpression expression="n.loge = n.value.loge()">
+          <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="n.loge = n.value.loge" datatype="Decimal" expressiontype="ASSIGNMENT" enumeration="false" cellValue="false">
+            <modifiedTermList>
+              <terms text="loge" datatype="Decimal" termtype="ATTRIBUTE" fulltext="n.loge">
+                <parentTerm text="n" datatype="Decimal" termtype="ENTITY" fulltext="n"/>
+              </terms>
+            </modifiedTermList>
+            <referencedTermList>
+              <terms text="n" datatype="Decimal" termtype="ENTITY" fulltext="n" variable="#//@ruleset/@logicalVariables.0"/>
+              <terms text="loge" datatype="Decimal" termtype="METHOD" fulltext="n.value.loge">
+                <parentTerm text="value" datatype="Decimal" termtype="ATTRIBUTE" fulltext="n.value">
+                  <parentTerm text="n" datatype="Decimal" termtype="ENTITY" fulltext="n" variable="#//@ruleset/@logicalVariables.0"/>
+                </parentTerm>
+              </terms>
+            </referencedTermList>
+          </parserOutput>
+        </opaqueExpression>
+      </action>
+      <action>
+        <opaqueExpression expression="n.log10 = n.value.log10()">
+          <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="n.log10 = n.value.log10" datatype="Decimal" expressiontype="ASSIGNMENT" enumeration="false" cellValue="false">
+            <modifiedTermList>
+              <terms text="log10" datatype="Decimal" termtype="ATTRIBUTE" fulltext="n.log10">
+                <parentTerm text="n" datatype="Decimal" termtype="ENTITY" fulltext="n"/>
+              </terms>
+            </modifiedTermList>
+            <referencedTermList>
+              <terms text="n" datatype="Decimal" termtype="ENTITY" fulltext="n" variable="#//@ruleset/@logicalVariables.0"/>
+              <terms text="log10" datatype="Decimal" termtype="METHOD" fulltext="n.value.log10">
+                <parentTerm text="value" datatype="Decimal" termtype="ATTRIBUTE" fulltext="n.value">
+                  <parentTerm text="n" datatype="Decimal" termtype="ENTITY" fulltext="n" variable="#//@ruleset/@logicalVariables.0"/>
+                </parentTerm>
+              </terms>
+            </referencedTermList>
+          </parserOutput>
+        </opaqueExpression>
+      </action>
+      <action>
+        <opaqueExpression expression="n.log1p = n.value.log1p()">
+          <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="n.log1p = n.value.log1p" datatype="Decimal" expressiontype="ASSIGNMENT" enumeration="false" cellValue="false">
+            <modifiedTermList>
+              <terms text="log1p" datatype="Decimal" termtype="ATTRIBUTE" fulltext="n.log1p">
+                <parentTerm text="n" datatype="Decimal" termtype="ENTITY" fulltext="n"/>
+              </terms>
+            </modifiedTermList>
+            <referencedTermList>
+              <terms text="n" datatype="Decimal" termtype="ENTITY" fulltext="n" variable="#//@ruleset/@logicalVariables.0"/>
+              <terms text="log1p" datatype="Decimal" termtype="METHOD" fulltext="n.value.log1p">
+                <parentTerm text="value" datatype="Decimal" termtype="ATTRIBUTE" fulltext="n.value">
+                  <parentTerm text="n" datatype="Decimal" termtype="ENTITY" fulltext="n" variable="#//@ruleset/@logicalVariables.0"/>
+                </parentTerm>
+              </terms>
+            </referencedTermList>
+          </parserOutput>
+        </opaqueExpression>
+      </action>
+    </rule>
+    <ruleStatement post="Info" ruleModelElements="#//@ruleset/@rules.0" logicalVariable="#//@ruleset/@logicalVariables.0">
+      <text expression="Calculate values for {n.value}.">
+        <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="Calculate values for  + n.value + ." expressiontype="BRSTATEMENT">
+          <referencedTermList>
+            <terms text="value" datatype="Decimal" termtype="ATTRIBUTE" fulltext="n.value">
+              <parentTerm text="n" datatype="Decimal" termtype="ENTITY" fulltext="n" variable="#//@ruleset/@logicalVariables.0"/>
+            </terms>
+          </referencedTermList>
+        </parserOutput>
+      </text>
+    </ruleStatement>
+    <logicalVariable explicit="true" entity="MathTest.ecore#//Decimal" ruleStatements="#//@ruleset/@ruleStatements.0">
+      <alias value="n"/>
+      <referencedAttributes attribute="MathTest.ecore#//Decimal/acos"/>
+      <referencedAttributes attribute="MathTest.ecore#//Decimal/value"/>
+      <referencedAttributes attribute="MathTest.ecore#//Decimal/asin"/>
+      <referencedAttributes attribute="MathTest.ecore#//Decimal/atan"/>
+      <referencedAttributes attribute="MathTest.ecore#//Decimal/abs"/>
+      <referencedAttributes attribute="MathTest.ecore#//Decimal/cbrt"/>
+      <referencedAttributes attribute="MathTest.ecore#//Decimal/ceil"/>
+      <referencedAttributes attribute="MathTest.ecore#//Decimal/cos"/>
+      <referencedAttributes attribute="MathTest.ecore#//Decimal/cosh"/>
+      <referencedAttributes attribute="MathTest.ecore#//Decimal/exp"/>
+      <referencedAttributes attribute="MathTest.ecore#//Decimal/expm1"/>
+      <referencedAttributes attribute="MathTest.ecore#//Decimal/floor"/>
+      <referencedAttributes attribute="MathTest.ecore#//Decimal/exponent"/>
+      <referencedAttributes attribute="MathTest.ecore#//Decimal/loge"/>
+      <referencedAttributes attribute="MathTest.ecore#//Decimal/log10"/>
+      <referencedAttributes attribute="MathTest.ecore#//Decimal/log1p"/>
+    </logicalVariable>
+  </ruleset>
+  <rulesheetViewList xsi:type="com.corticon.rulesemf.viewrulemodel.rulesheet.decisiontable:DecisionTable" advanced="true" sashWeightAdvancedView="34" sashWeightConditionsActions="10">
+    <actionSection rowCount="51" columnWidthFactor="0.5">
+      <actionItemList>
+        <valueSetCell/>
+        <expressionCell external="n.abs">
+          <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="n.abs" datatype="Decimal" expressiontype="EXPRESSION" enumeration="false" cellValue="false">
+            <referencedTermList>
+              <terms text="abs" datatype="Decimal" termtype="ATTRIBUTE" fulltext="n.abs">
+                <parentTerm text="n" datatype="Decimal" termtype="ENTITY" fulltext="n" variable="#//@ruleset/@logicalVariables.0"/>
+              </terms>
+            </referencedTermList>
+          </parserOutput>
+        </expressionCell>
+      </actionItemList>
+      <actionItemList>
+        <valueSetCell/>
+        <expressionCell external="n.acos">
+          <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="n.acos" datatype="Decimal" expressiontype="EXPRESSION" enumeration="false" cellValue="false">
+            <referencedTermList>
+              <terms text="acos" datatype="Decimal" termtype="ATTRIBUTE" fulltext="n.acos">
+                <parentTerm text="n" datatype="Decimal" termtype="ENTITY" fulltext="n" variable="#//@ruleset/@logicalVariables.0"/>
+              </terms>
+            </referencedTermList>
+          </parserOutput>
+        </expressionCell>
+      </actionItemList>
+      <actionItemList>
+        <valueSetCell/>
+        <expressionCell external="n.asin">
+          <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="n.asin" datatype="Decimal" expressiontype="EXPRESSION" enumeration="false" cellValue="false">
+            <referencedTermList>
+              <terms text="asin" datatype="Decimal" termtype="ATTRIBUTE" fulltext="n.asin">
+                <parentTerm text="n" datatype="Decimal" termtype="ENTITY" fulltext="n" variable="#//@ruleset/@logicalVariables.0"/>
+              </terms>
+            </referencedTermList>
+          </parserOutput>
+        </expressionCell>
+      </actionItemList>
+      <actionItemList>
+        <valueSetCell/>
+        <expressionCell external="n.atan">
+          <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="n.atan" datatype="Decimal" expressiontype="EXPRESSION" enumeration="false" cellValue="false">
+            <referencedTermList>
+              <terms text="atan" datatype="Decimal" termtype="ATTRIBUTE" fulltext="n.atan">
+                <parentTerm text="n" datatype="Decimal" termtype="ENTITY" fulltext="n" variable="#//@ruleset/@logicalVariables.0"/>
+              </terms>
+            </referencedTermList>
+          </parserOutput>
+        </expressionCell>
+      </actionItemList>
+      <actionItemList>
+        <valueSetCell/>
+        <expressionCell external="n.cbrt">
+          <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="n.cbrt" datatype="Decimal" expressiontype="EXPRESSION" enumeration="false" cellValue="false">
+            <referencedTermList>
+              <terms text="cbrt" datatype="Decimal" termtype="ATTRIBUTE" fulltext="n.cbrt">
+                <parentTerm text="n" datatype="Decimal" termtype="ENTITY" fulltext="n" variable="#//@ruleset/@logicalVariables.0"/>
+              </terms>
+            </referencedTermList>
+          </parserOutput>
+        </expressionCell>
+      </actionItemList>
+      <actionItemList>
+        <valueSetCell/>
+        <expressionCell external="n.ceil">
+          <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="n.ceil" datatype="Decimal" expressiontype="EXPRESSION" enumeration="false" cellValue="false">
+            <referencedTermList>
+              <terms text="ceil" datatype="Decimal" termtype="ATTRIBUTE" fulltext="n.ceil">
+                <parentTerm text="n" datatype="Decimal" termtype="ENTITY" fulltext="n" variable="#//@ruleset/@logicalVariables.0"/>
+              </terms>
+            </referencedTermList>
+          </parserOutput>
+        </expressionCell>
+      </actionItemList>
+      <actionItemList>
+        <valueSetCell/>
+        <expressionCell external="n.cos">
+          <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="n.cos" datatype="Decimal" expressiontype="EXPRESSION" enumeration="false" cellValue="false">
+            <referencedTermList>
+              <terms text="cos" datatype="Decimal" termtype="ATTRIBUTE" fulltext="n.cos">
+                <parentTerm text="n" datatype="Decimal" termtype="ENTITY" fulltext="n" variable="#//@ruleset/@logicalVariables.0"/>
+              </terms>
+            </referencedTermList>
+          </parserOutput>
+        </expressionCell>
+      </actionItemList>
+      <actionItemList>
+        <valueSetCell/>
+        <expressionCell external="n.cosh">
+          <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="n.cosh" datatype="Decimal" expressiontype="EXPRESSION" enumeration="false" cellValue="false">
+            <referencedTermList>
+              <terms text="cosh" datatype="Decimal" termtype="ATTRIBUTE" fulltext="n.cosh">
+                <parentTerm text="n" datatype="Decimal" termtype="ENTITY" fulltext="n" variable="#//@ruleset/@logicalVariables.0"/>
+              </terms>
+            </referencedTermList>
+          </parserOutput>
+        </expressionCell>
+      </actionItemList>
+      <actionItemList>
+        <valueSetCell/>
+        <expressionCell external="n.exp">
+          <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="n.exp" datatype="Decimal" expressiontype="EXPRESSION" enumeration="false" cellValue="false">
+            <referencedTermList>
+              <terms text="exp" datatype="Decimal" termtype="ATTRIBUTE" fulltext="n.exp">
+                <parentTerm text="n" datatype="Decimal" termtype="ENTITY" fulltext="n" variable="#//@ruleset/@logicalVariables.0"/>
+              </terms>
+            </referencedTermList>
+          </parserOutput>
+        </expressionCell>
+      </actionItemList>
+      <actionItemList>
+        <valueSetCell/>
+        <expressionCell external="n.expm1">
+          <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="n.expm1" datatype="Decimal" expressiontype="EXPRESSION" enumeration="false" cellValue="false">
+            <referencedTermList>
+              <terms text="expm1" datatype="Decimal" termtype="ATTRIBUTE" fulltext="n.expm1">
+                <parentTerm text="n" datatype="Decimal" termtype="ENTITY" fulltext="n" variable="#//@ruleset/@logicalVariables.0"/>
+              </terms>
+            </referencedTermList>
+          </parserOutput>
+        </expressionCell>
+      </actionItemList>
+      <actionItemList>
+        <valueSetCell/>
+        <expressionCell external="n.floor">
+          <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="n.floor" datatype="Decimal" expressiontype="EXPRESSION" enumeration="false" cellValue="false">
+            <referencedTermList>
+              <terms text="floor" datatype="Decimal" termtype="ATTRIBUTE" fulltext="n.floor">
+                <parentTerm text="n" datatype="Decimal" termtype="ENTITY" fulltext="n" variable="#//@ruleset/@logicalVariables.0"/>
+              </terms>
+            </referencedTermList>
+          </parserOutput>
+        </expressionCell>
+      </actionItemList>
+      <actionItemList>
+        <valueSetCell valueSet=""/>
+        <expressionCell external="n.exponent">
+          <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="n.exponent" datatype="Decimal" expressiontype="EXPRESSION" enumeration="false" cellValue="false">
+            <referencedTermList>
+              <terms text="exponent" datatype="Decimal" termtype="ATTRIBUTE" fulltext="n.exponent">
+                <parentTerm text="n" datatype="Decimal" termtype="ENTITY" fulltext="n" variable="#//@ruleset/@logicalVariables.0"/>
+              </terms>
+            </referencedTermList>
+          </parserOutput>
+        </expressionCell>
+      </actionItemList>
+      <actionItemList>
+        <valueSetCell/>
+        <expressionCell external="n.loge">
+          <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="n.loge" datatype="Decimal" expressiontype="EXPRESSION" enumeration="false" cellValue="false">
+            <referencedTermList>
+              <terms text="loge" datatype="Decimal" termtype="ATTRIBUTE" fulltext="n.loge">
+                <parentTerm text="n" datatype="Decimal" termtype="ENTITY" fulltext="n" variable="#//@ruleset/@logicalVariables.0"/>
+              </terms>
+            </referencedTermList>
+          </parserOutput>
+        </expressionCell>
+      </actionItemList>
+      <actionItemList>
+        <valueSetCell/>
+        <expressionCell external="n.log10">
+          <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="n.log10" datatype="Decimal" expressiontype="EXPRESSION" enumeration="false" cellValue="false">
+            <referencedTermList>
+              <terms text="log10" datatype="Decimal" termtype="ATTRIBUTE" fulltext="n.log10">
+                <parentTerm text="n" datatype="Decimal" termtype="ENTITY" fulltext="n" variable="#//@ruleset/@logicalVariables.0"/>
+              </terms>
+            </referencedTermList>
+          </parserOutput>
+        </expressionCell>
+      </actionItemList>
+      <actionItemList>
+        <valueSetCell/>
+        <expressionCell external="n.log1p">
+          <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="n.log1p" datatype="Decimal" expressiontype="EXPRESSION" enumeration="false" cellValue="false">
+            <referencedTermList>
+              <terms text="log1p" datatype="Decimal" termtype="ATTRIBUTE" fulltext="n.log1p">
+                <parentTerm text="n" datatype="Decimal" termtype="ENTITY" fulltext="n" variable="#//@ruleset/@logicalVariables.0"/>
+              </terms>
+            </referencedTermList>
+          </parserOutput>
+        </expressionCell>
+      </actionItemList>
+    </actionSection>
+    <scopeSection>
+      <rootNode>
+        <children xsi:type="com.corticon.rulesemf.viewrulemodel.rulesheet.decisiontable:ScopeEntity" expanded="true" logicalVariable="#//@ruleset/@logicalVariables.0">
+          <children xsi:type="com.corticon.rulesemf.viewrulemodel.rulesheet.decisiontable:ScopeAttribute" referencedAttribute="#//@ruleset/@logicalVariables.0/@referencedAttributes.0"/>
+          <children xsi:type="com.corticon.rulesemf.viewrulemodel.rulesheet.decisiontable:ScopeAttribute" referencedAttribute="#//@ruleset/@logicalVariables.0/@referencedAttributes.1"/>
+          <children xsi:type="com.corticon.rulesemf.viewrulemodel.rulesheet.decisiontable:ScopeAttribute" referencedAttribute="#//@ruleset/@logicalVariables.0/@referencedAttributes.2"/>
+          <children xsi:type="com.corticon.rulesemf.viewrulemodel.rulesheet.decisiontable:ScopeAttribute" referencedAttribute="#//@ruleset/@logicalVariables.0/@referencedAttributes.3"/>
+          <children xsi:type="com.corticon.rulesemf.viewrulemodel.rulesheet.decisiontable:ScopeAttribute" referencedAttribute="#//@ruleset/@logicalVariables.0/@referencedAttributes.4"/>
+          <children xsi:type="com.corticon.rulesemf.viewrulemodel.rulesheet.decisiontable:ScopeAttribute" referencedAttribute="#//@ruleset/@logicalVariables.0/@referencedAttributes.5"/>
+          <children xsi:type="com.corticon.rulesemf.viewrulemodel.rulesheet.decisiontable:ScopeAttribute" referencedAttribute="#//@ruleset/@logicalVariables.0/@referencedAttributes.6"/>
+          <children xsi:type="com.corticon.rulesemf.viewrulemodel.rulesheet.decisiontable:ScopeAttribute" referencedAttribute="#//@ruleset/@logicalVariables.0/@referencedAttributes.7"/>
+          <children xsi:type="com.corticon.rulesemf.viewrulemodel.rulesheet.decisiontable:ScopeAttribute" referencedAttribute="#//@ruleset/@logicalVariables.0/@referencedAttributes.8"/>
+          <children xsi:type="com.corticon.rulesemf.viewrulemodel.rulesheet.decisiontable:ScopeAttribute" referencedAttribute="#//@ruleset/@logicalVariables.0/@referencedAttributes.9"/>
+          <children xsi:type="com.corticon.rulesemf.viewrulemodel.rulesheet.decisiontable:ScopeAttribute" referencedAttribute="#//@ruleset/@logicalVariables.0/@referencedAttributes.10"/>
+          <children xsi:type="com.corticon.rulesemf.viewrulemodel.rulesheet.decisiontable:ScopeAttribute" referencedAttribute="#//@ruleset/@logicalVariables.0/@referencedAttributes.11"/>
+          <children xsi:type="com.corticon.rulesemf.viewrulemodel.rulesheet.decisiontable:ScopeAttribute" referencedAttribute="#//@ruleset/@logicalVariables.0/@referencedAttributes.12"/>
+          <children xsi:type="com.corticon.rulesemf.viewrulemodel.rulesheet.decisiontable:ScopeAttribute" referencedAttribute="#//@ruleset/@logicalVariables.0/@referencedAttributes.13"/>
+          <children xsi:type="com.corticon.rulesemf.viewrulemodel.rulesheet.decisiontable:ScopeAttribute" referencedAttribute="#//@ruleset/@logicalVariables.0/@referencedAttributes.14"/>
+          <children xsi:type="com.corticon.rulesemf.viewrulemodel.rulesheet.decisiontable:ScopeAttribute" referencedAttribute="#//@ruleset/@logicalVariables.0/@referencedAttributes.15"/>
+        </children>
+      </rootNode>
+    </scopeSection>
+    <filterSection rowCount="50" scrollRowTop="10"/>
+    <ruleStatementSection rowCount="50" columnWidthReference="50" columnWidthPostSeverity="75" columnWidthAlias="100" columnWidthID="50" columnWidthText="600" columnWidthRuleName="100" columnWidthRuleLink="100" columnWidthSourceName="100" columnWidthSourceLink="100" columnWidthCategory="100" columnWidthComments="400">
+      <ruleStatementItemList rowHeight="21" ruleStatement="#//@ruleset/@ruleStatements.0">
+        <reference external="0"/>
+        <text external="Calculate values for {n.value}.">
+          <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="Calculate values for  + n.value + ." expressiontype="BRSTATEMENT">
+            <referencedTermList>
+              <terms text="value" datatype="Decimal" termtype="ATTRIBUTE" fulltext="n.value">
+                <parentTerm text="n" datatype="Decimal" termtype="ENTITY" fulltext="n" variable="#//@ruleset/@logicalVariables.0"/>
+              </terms>
+            </referencedTermList>
+          </parserOutput>
+        </text>
+      </ruleStatementItemList>
+    </ruleStatementSection>
+    <conditionSection rowCount="50" columnWidthFactor="0.5"/>
+    <ruleSection columnCount="20">
+      <ruleColumnList ruleId="0" columnWidth="173" pRule="#//@ruleset/@rules.0">
+        <actionValueSetCellList valueSet="n.value.abs()">
+          <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="n.abs = n.value.abs" datatype="Decimal" expressiontype="ASSIGNMENT" enumeration="false" cellValue="false">
+            <modifiedTermList>
+              <terms text="abs" datatype="Decimal" termtype="ATTRIBUTE" fulltext="n.abs">
+                <parentTerm text="n" datatype="Decimal" termtype="ENTITY" fulltext="n"/>
+              </terms>
+            </modifiedTermList>
+            <referencedTermList>
+              <terms text="abs" datatype="Decimal" termtype="METHOD" fulltext="n.value.abs">
+                <parentTerm text="value" datatype="Decimal" termtype="ATTRIBUTE" fulltext="n.value">
+                  <parentTerm text="n" datatype="Decimal" termtype="ENTITY" fulltext="n"/>
+                </parentTerm>
+              </terms>
+              <terms text="n" datatype="Decimal" termtype="ENTITY" fulltext="n"/>
+            </referencedTermList>
+          </parserOutput>
+        </actionValueSetCellList>
+        <actionValueSetCellList valueSet="n.value.acos()">
+          <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="n.acos = n.value.acos" datatype="Decimal" expressiontype="ASSIGNMENT" enumeration="false" cellValue="false">
+            <modifiedTermList>
+              <terms text="acos" datatype="Decimal" termtype="ATTRIBUTE" fulltext="n.acos">
+                <parentTerm text="n" datatype="Decimal" termtype="ENTITY" fulltext="n"/>
+              </terms>
+            </modifiedTermList>
+            <referencedTermList>
+              <terms text="n" datatype="Decimal" termtype="ENTITY" fulltext="n"/>
+              <terms text="acos" datatype="Decimal" termtype="METHOD" fulltext="n.value.acos">
+                <parentTerm text="value" datatype="Decimal" termtype="ATTRIBUTE" fulltext="n.value">
+                  <parentTerm text="n" datatype="Decimal" termtype="ENTITY" fulltext="n"/>
+                </parentTerm>
+              </terms>
+            </referencedTermList>
+          </parserOutput>
+        </actionValueSetCellList>
+        <actionValueSetCellList valueSet="n.value.asin()">
+          <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="n.asin = n.value.asin" datatype="Decimal" expressiontype="ASSIGNMENT" enumeration="false" cellValue="false">
+            <modifiedTermList>
+              <terms text="asin" datatype="Decimal" termtype="ATTRIBUTE" fulltext="n.asin">
+                <parentTerm text="n" datatype="Decimal" termtype="ENTITY" fulltext="n"/>
+              </terms>
+            </modifiedTermList>
+            <referencedTermList>
+              <terms text="asin" datatype="Decimal" termtype="METHOD" fulltext="n.value.asin">
+                <parentTerm text="value" datatype="Decimal" termtype="ATTRIBUTE" fulltext="n.value">
+                  <parentTerm text="n" datatype="Decimal" termtype="ENTITY" fulltext="n"/>
+                </parentTerm>
+              </terms>
+              <terms text="n" datatype="Decimal" termtype="ENTITY" fulltext="n"/>
+            </referencedTermList>
+          </parserOutput>
+        </actionValueSetCellList>
+        <actionValueSetCellList valueSet="n.value.atan()">
+          <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="n.atan = n.value.atan" datatype="Decimal" expressiontype="ASSIGNMENT" enumeration="false" cellValue="false">
+            <modifiedTermList>
+              <terms text="atan" datatype="Decimal" termtype="ATTRIBUTE" fulltext="n.atan">
+                <parentTerm text="n" datatype="Decimal" termtype="ENTITY" fulltext="n"/>
+              </terms>
+            </modifiedTermList>
+            <referencedTermList>
+              <terms text="atan" datatype="Decimal" termtype="METHOD" fulltext="n.value.atan">
+                <parentTerm text="value" datatype="Decimal" termtype="ATTRIBUTE" fulltext="n.value">
+                  <parentTerm text="n" datatype="Decimal" termtype="ENTITY" fulltext="n"/>
+                </parentTerm>
+              </terms>
+              <terms text="n" datatype="Decimal" termtype="ENTITY" fulltext="n"/>
+            </referencedTermList>
+          </parserOutput>
+        </actionValueSetCellList>
+        <actionValueSetCellList valueSet="n.value.cbrt()">
+          <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="n.cbrt = n.value.cbrt" datatype="Decimal" expressiontype="ASSIGNMENT" enumeration="false" cellValue="false">
+            <modifiedTermList>
+              <terms text="cbrt" datatype="Decimal" termtype="ATTRIBUTE" fulltext="n.cbrt">
+                <parentTerm text="n" datatype="Decimal" termtype="ENTITY" fulltext="n"/>
+              </terms>
+            </modifiedTermList>
+            <referencedTermList>
+              <terms text="cbrt" datatype="Decimal" termtype="METHOD" fulltext="n.value.cbrt">
+                <parentTerm text="value" datatype="Decimal" termtype="ATTRIBUTE" fulltext="n.value">
+                  <parentTerm text="n" datatype="Decimal" termtype="ENTITY" fulltext="n"/>
+                </parentTerm>
+              </terms>
+              <terms text="n" datatype="Decimal" termtype="ENTITY" fulltext="n"/>
+            </referencedTermList>
+          </parserOutput>
+        </actionValueSetCellList>
+        <actionValueSetCellList valueSet="n.value.ceil()">
+          <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="n.ceil = n.value.ceil" datatype="Decimal" expressiontype="ASSIGNMENT" enumeration="false" cellValue="false">
+            <modifiedTermList>
+              <terms text="ceil" datatype="Decimal" termtype="ATTRIBUTE" fulltext="n.ceil">
+                <parentTerm text="n" datatype="Decimal" termtype="ENTITY" fulltext="n"/>
+              </terms>
+            </modifiedTermList>
+            <referencedTermList>
+              <terms text="n" datatype="Decimal" termtype="ENTITY" fulltext="n"/>
+              <terms text="ceil" datatype="Decimal" termtype="METHOD" fulltext="n.value.ceil">
+                <parentTerm text="value" datatype="Decimal" termtype="ATTRIBUTE" fulltext="n.value">
+                  <parentTerm text="n" datatype="Decimal" termtype="ENTITY" fulltext="n"/>
+                </parentTerm>
+              </terms>
+            </referencedTermList>
+          </parserOutput>
+        </actionValueSetCellList>
+        <actionValueSetCellList valueSet="n.value.cos()">
+          <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="n.cos = n.value.cos" datatype="Decimal" expressiontype="ASSIGNMENT" enumeration="false" cellValue="false">
+            <modifiedTermList>
+              <terms text="cos" datatype="Decimal" termtype="ATTRIBUTE" fulltext="n.cos">
+                <parentTerm text="n" datatype="Decimal" termtype="ENTITY" fulltext="n"/>
+              </terms>
+            </modifiedTermList>
+            <referencedTermList>
+              <terms text="cos" datatype="Decimal" termtype="METHOD" fulltext="n.value.cos">
+                <parentTerm text="value" datatype="Decimal" termtype="ATTRIBUTE" fulltext="n.value">
+                  <parentTerm text="n" datatype="Decimal" termtype="ENTITY" fulltext="n"/>
+                </parentTerm>
+              </terms>
+              <terms text="n" datatype="Decimal" termtype="ENTITY" fulltext="n"/>
+            </referencedTermList>
+          </parserOutput>
+        </actionValueSetCellList>
+        <actionValueSetCellList valueSet="n.value.cosh()">
+          <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="n.cosh = n.value.cosh" datatype="Decimal" expressiontype="ASSIGNMENT" enumeration="false" cellValue="false">
+            <modifiedTermList>
+              <terms text="cosh" datatype="Decimal" termtype="ATTRIBUTE" fulltext="n.cosh">
+                <parentTerm text="n" datatype="Decimal" termtype="ENTITY" fulltext="n"/>
+              </terms>
+            </modifiedTermList>
+            <referencedTermList>
+              <terms text="cosh" datatype="Decimal" termtype="METHOD" fulltext="n.value.cosh">
+                <parentTerm text="value" datatype="Decimal" termtype="ATTRIBUTE" fulltext="n.value">
+                  <parentTerm text="n" datatype="Decimal" termtype="ENTITY" fulltext="n"/>
+                </parentTerm>
+              </terms>
+              <terms text="n" datatype="Decimal" termtype="ENTITY" fulltext="n"/>
+            </referencedTermList>
+          </parserOutput>
+        </actionValueSetCellList>
+        <actionValueSetCellList valueSet="n.value.exp()">
+          <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="n.exp = n.value.exp" datatype="Decimal" expressiontype="ASSIGNMENT" enumeration="false" cellValue="false">
+            <modifiedTermList>
+              <terms text="exp" datatype="Decimal" termtype="ATTRIBUTE" fulltext="n.exp">
+                <parentTerm text="n" datatype="Decimal" termtype="ENTITY" fulltext="n"/>
+              </terms>
+            </modifiedTermList>
+            <referencedTermList>
+              <terms text="exp" datatype="Decimal" termtype="METHOD" fulltext="n.value.exp">
+                <parentTerm text="value" datatype="Decimal" termtype="ATTRIBUTE" fulltext="n.value">
+                  <parentTerm text="n" datatype="Decimal" termtype="ENTITY" fulltext="n"/>
+                </parentTerm>
+              </terms>
+              <terms text="n" datatype="Decimal" termtype="ENTITY" fulltext="n"/>
+            </referencedTermList>
+          </parserOutput>
+        </actionValueSetCellList>
+        <actionValueSetCellList valueSet="n.value.expm1()">
+          <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="n.expm1 = n.value.expm1" datatype="Decimal" expressiontype="ASSIGNMENT" enumeration="false" cellValue="false">
+            <modifiedTermList>
+              <terms text="expm1" datatype="Decimal" termtype="ATTRIBUTE" fulltext="n.expm1">
+                <parentTerm text="n" datatype="Decimal" termtype="ENTITY" fulltext="n"/>
+              </terms>
+            </modifiedTermList>
+            <referencedTermList>
+              <terms text="expm1" datatype="Decimal" termtype="METHOD" fulltext="n.value.expm1">
+                <parentTerm text="value" datatype="Decimal" termtype="ATTRIBUTE" fulltext="n.value">
+                  <parentTerm text="n" datatype="Decimal" termtype="ENTITY" fulltext="n"/>
+                </parentTerm>
+              </terms>
+              <terms text="n" datatype="Decimal" termtype="ENTITY" fulltext="n"/>
+            </referencedTermList>
+          </parserOutput>
+        </actionValueSetCellList>
+        <actionValueSetCellList valueSet="n.value.floor()">
+          <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="n.floor = n.value.floor" datatype="Decimal" expressiontype="ASSIGNMENT" enumeration="false" cellValue="false">
+            <modifiedTermList>
+              <terms text="floor" datatype="Decimal" termtype="ATTRIBUTE" fulltext="n.floor">
+                <parentTerm text="n" datatype="Decimal" termtype="ENTITY" fulltext="n"/>
+              </terms>
+            </modifiedTermList>
+            <referencedTermList>
+              <terms text="floor" datatype="Integer" termtype="METHOD" fulltext="n.value.floor">
+                <parentTerm text="value" datatype="Decimal" termtype="ATTRIBUTE" fulltext="n.value">
+                  <parentTerm text="n" datatype="Decimal" termtype="ENTITY" fulltext="n"/>
+                </parentTerm>
+              </terms>
+              <terms text="n" datatype="Decimal" termtype="ENTITY" fulltext="n"/>
+            </referencedTermList>
+          </parserOutput>
+        </actionValueSetCellList>
+        <actionValueSetCellList valueSet="n.value.exponent()">
+          <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="n.exponent = n.value.exponent" datatype="Decimal" expressiontype="ASSIGNMENT" enumeration="false" cellValue="false">
+            <modifiedTermList>
+              <terms text="exponent" datatype="Decimal" termtype="ATTRIBUTE" fulltext="n.exponent">
+                <parentTerm text="n" datatype="Decimal" termtype="ENTITY" fulltext="n"/>
+              </terms>
+            </modifiedTermList>
+            <referencedTermList>
+              <terms text="exponent" datatype="Decimal" termtype="METHOD" fulltext="n.value.exponent">
+                <parentTerm text="value" datatype="Decimal" termtype="ATTRIBUTE" fulltext="n.value">
+                  <parentTerm text="n" datatype="Decimal" termtype="ENTITY" fulltext="n"/>
+                </parentTerm>
+              </terms>
+              <terms text="n" datatype="Decimal" termtype="ENTITY" fulltext="n"/>
+            </referencedTermList>
+          </parserOutput>
+        </actionValueSetCellList>
+        <actionValueSetCellList valueSet="n.value.loge()">
+          <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="n.loge = n.value.loge" datatype="Decimal" expressiontype="ASSIGNMENT" enumeration="false" cellValue="false">
+            <modifiedTermList>
+              <terms text="loge" datatype="Decimal" termtype="ATTRIBUTE" fulltext="n.loge">
+                <parentTerm text="n" datatype="Decimal" termtype="ENTITY" fulltext="n"/>
+              </terms>
+            </modifiedTermList>
+            <referencedTermList>
+              <terms text="n" datatype="Decimal" termtype="ENTITY" fulltext="n"/>
+              <terms text="loge" datatype="Decimal" termtype="METHOD" fulltext="n.value.loge">
+                <parentTerm text="value" datatype="Decimal" termtype="ATTRIBUTE" fulltext="n.value">
+                  <parentTerm text="n" datatype="Decimal" termtype="ENTITY" fulltext="n"/>
+                </parentTerm>
+              </terms>
+            </referencedTermList>
+          </parserOutput>
+        </actionValueSetCellList>
+        <actionValueSetCellList valueSet="n.value.log10()">
+          <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="n.log10 = n.value.log10" datatype="Decimal" expressiontype="ASSIGNMENT" enumeration="false" cellValue="false">
+            <modifiedTermList>
+              <terms text="log10" datatype="Decimal" termtype="ATTRIBUTE" fulltext="n.log10">
+                <parentTerm text="n" datatype="Decimal" termtype="ENTITY" fulltext="n"/>
+              </terms>
+            </modifiedTermList>
+            <referencedTermList>
+              <terms text="n" datatype="Decimal" termtype="ENTITY" fulltext="n"/>
+              <terms text="log10" datatype="Decimal" termtype="METHOD" fulltext="n.value.log10">
+                <parentTerm text="value" datatype="Decimal" termtype="ATTRIBUTE" fulltext="n.value">
+                  <parentTerm text="n" datatype="Decimal" termtype="ENTITY" fulltext="n"/>
+                </parentTerm>
+              </terms>
+            </referencedTermList>
+          </parserOutput>
+        </actionValueSetCellList>
+        <actionValueSetCellList valueSet="n.value.log1p()">
+          <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="n.log1p = n.value.log1p" datatype="Decimal" expressiontype="ASSIGNMENT" enumeration="false" cellValue="false">
+            <modifiedTermList>
+              <terms text="log1p" datatype="Decimal" termtype="ATTRIBUTE" fulltext="n.log1p">
+                <parentTerm text="n" datatype="Decimal" termtype="ENTITY" fulltext="n"/>
+              </terms>
+            </modifiedTermList>
+            <referencedTermList>
+              <terms text="n" datatype="Decimal" termtype="ENTITY" fulltext="n"/>
+              <terms text="log1p" datatype="Decimal" termtype="METHOD" fulltext="n.value.log1p">
+                <parentTerm text="value" datatype="Decimal" termtype="ATTRIBUTE" fulltext="n.value">
+                  <parentTerm text="n" datatype="Decimal" termtype="ENTITY" fulltext="n"/>
+                </parentTerm>
+              </terms>
+            </referencedTermList>
+          </parserOutput>
+        </actionValueSetCellList>
+      </ruleColumnList>
+    </ruleSection>
+  </rulesheetViewList>
+</com.corticon.rulesemf.assetmodel:RulesheetAsset>
